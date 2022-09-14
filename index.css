@@ -1,9 +1,30 @@
+@font-face {
+  font-family: "RobotoMono-Bold";
+  src: url(./fonts/RobotoMono-Bold.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-BoldItalic";
+  src: url(./fonts/RobotoMono-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Italic";
+  src: url(./fonts/RobotoMono-Italic.ttf);
+}
+@font-face {
+  font-family: "RobotoMono-Regular";
+  src: url(./fonts/RobotoMono-Regular.ttf);
+}
+
 .container {
   width: 100%;
+  font-family: "RobotoMono-Regular";
 }
 .content {
   font-size: 24px;
-  max-width: 100%;
+  margin: auto;
+  height: 842px;
+  width: 595px;
+  background-color: gray;
 }
 .avatar-img {
   border-radius: 50%;
@@ -15,9 +36,6 @@
   font-weight: bold;
 }
 
-body {
-  background: rgb(204,204,204); 
-}
 page[size="A4"] {
   background: white;
   width: 21cm;
