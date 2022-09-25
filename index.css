@@ -30,6 +30,7 @@ body {
   font: 12pt "RobotoMono";
   background-image: url(./images/front-end-skills.png);
   color: #333;
+  -webkit-print-color-adjust: exact;
 }
 * {
   box-sizing: border-box;
@@ -60,6 +61,7 @@ body {
 
 .right {
   flex: 1;
+  font-size: 14px;
 }
 
 .avatar {
@@ -86,6 +88,7 @@ body {
 }
 .title {
   margin-bottom: 12px;
+  font-size: 16px;
   font-weight: bold;
 }
 .description {
