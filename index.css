@@ -56,12 +56,12 @@ body {
 }
 .left {
   width: 40%;
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .right {
   flex: 1;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .avatar {
@@ -82,6 +82,10 @@ body {
 }
 .name h1 {
   margin-bottom: 0;
+  font-size: 44px;
+}
+.name h3 {
+  font-size: 24px;
 }
 .block {
   margin-bottom: 24px;
@@ -91,8 +95,26 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+.title-highlight {
+  font-weight: bold;
+  color: #008000;
+  font-size: 14px;
+}
+.gray-text {
+  color: #989898;
+}
 .description {
   font-size: 12px;
+  padding-left: 4px;
+}
+.education p {
+  margin-bottom: 4px;
+}
+.education span {
+  display: block;
+  margin-left: 6px;
+  border-left: 3px solid #008000;
+  padding-left: 8px;
 }
 .contact {
   display: flex;
@@ -100,11 +122,11 @@ body {
 }
 
 .contact + .contact, .skill + .skill {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 .contact img {
   width: 16px;
-  margin-right: 4px;
+  margin-right: 6px;
 }
 .avatar-img {
   width: 180px;
@@ -133,10 +155,44 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: green;
+  background-color: #008000;
   display: block;
 }
+.company-list {
+  padding-left: 14px;
+}
+.company-list li {
+  display: flex;
+  flex-direction: column;
+}
+.company-list li span{
+  font-weight: bold;
+  color: #008000;
+  display: block;
+  margin-left: -6px;
+}
+.exp-list {
+  list-style: none;
+  padding-left: 28px;
+}
+.project ul {
+  margin: 10px 0;
+}
+.project-name {
+  font-weight: bold;
+  color: #008000;
+}
 
+.hobby img{
+  background-color: #008000;
+  width: 40px;
+  padding: 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
 
 
 @page {
