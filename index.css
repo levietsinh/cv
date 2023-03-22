@@ -135,7 +135,7 @@ body {
 .name {
   color: #ffffff;
   height: 250px;
-  padding: 24px;
+  padding-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -257,8 +257,11 @@ body {
   margin-left: -6px;
 }
 .exp-list {
-  list-style: none;
+  list-style: default;
   padding-left: 28px;
+}
+.exp-list li + li {
+  margin-top: 8px;
 }
 .project ul {
   margin: 8px 0;
