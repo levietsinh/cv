@@ -264,7 +264,9 @@ body {
   margin-top: 8px;
 }
 .project ul {
-  margin: 8px 0;
+  margin-bottom: 8px;
+  margin-top: 0;
+  padding-left: 24px;
 }
 .project-name {
   font-weight: bold;
